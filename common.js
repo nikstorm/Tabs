@@ -1,3 +1,12 @@
+window.onload = function(){
+	// alert("hello");
+	var btn = document.getElementsByTagName('button');
+	for(i=0;i<btn.length;i++){
+		btn[i].className += 'btn btn-primary';
+
+	}
+	// btn.className += ' btn-primary';
+}
 $(document).ready(function(){
 	
 
